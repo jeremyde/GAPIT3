@@ -632,12 +632,12 @@ Memory=GAPIT.Memory(Memory=Memory,Infor="after LD plot")
 if(nrow(GI)<100)Geno.View.output=FALSE
 if(!is.null(GI) & !is.null(GD) & file.output & Geno.View.output)
 {
-ViewGenotype<-GAPIT.Genotype.View(
-GI=GI,
-X=GD,
-WS0=WS0,
-Aver.Dis=Aver.Dis
-)
+#ViewGenotype<-GAPIT.Genotype.View(
+#GI=GI,
+#X=GD,
+#WS0=WS0,
+#Aver.Dis=Aver.Dis
+#)
 }
 
 #print("Genotype successfully acomplished")
